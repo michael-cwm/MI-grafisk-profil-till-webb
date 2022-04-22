@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+}
+
+header {
+    height: 64px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 0px 30px;
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+    border: 3px solid white;
+    height: 12px;
+    width: 20px;
+    border-left: none;
+    border-right: none;
+}
+
+.burgerMeat {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+.logoContainer {
+    width: 250px;
+}
+
+.mainLogo {
+    width: 100%;
+}
+
+.palmstrax {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 453px;
+    background-color: black;
+}
+
+.lighterContainer,
+.imgContainer {
+    background-color: white;
+    width: 229px;
+    height: 227px;
+}
+
+#stickerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stickerImg {
+    height: 50px;
+}
+
+.lighterContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.lighterImg {
+    padding-left: 15px;
+}
+
+.textContainer {
+    width: 229px;
+    height: 229px;
+    border-bottom: 2px solid #eeeeee;
+    background-color: black;
+}
+
+.textContainer h1 {
+    color: #f18418;
+    padding-bottom: 30px;
+}
+
+.textContainer p {
+    color: #eeeeee;
+}
+
+.equation {
+    padding-left: 93px;
+}
+
+h1 {
+    margin: 0px;
+    font-family: abadi, sans-serif;
+    font-size: 32pt;
+    font-weight: 800;
+    font-style: normal;
+}
+
+p {
+    font-family: abadi, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+}
+
+h2 {
+    margin: 0px;
+    font-family: abadi, sans-serif;
+
+    font-weight: 800;
+
+    font-style: normal;
+}
+
+.musicHeader {
+    padding-left: 50px;
+    background-color: #eeeeee;
+}
+
+.music p {
+    margin: 5px 0px 5px 0;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+    /* height: 400px; */
+    padding: 0px 50px 0px 50px;
+}
+
+.contentContainer {
+    width: 229px;
+    height: 380px;
+}
+
+.merch {
+    background-color: black;
+    padding: 0px 50px 50px 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.merchHeader {
+    color: #f18418;
+}
+
+img {
+    height: 100%;
+}
+
+.merchHeader,
+.musicHeader {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.merch h2 {
+    color: #eeeeee;
+    padding-top: 30px;
+}
+
+.priceContainer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.price {
+    font-family: abadi, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+}
+
+.add2bag {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer h2,
+footer h1 {
+    padding: 0px 50px 0px 50px;
+}
+
+footer {
+    height: 444px;
+    background-color: #eeeeee;
+}
+
+footer p {
+    font-family: "Times New Roman", Times, serif;
+    padding: 0px 50px 0px 50px;
+}
+
+footer h1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+footer h2 {
+    padding-top: 10px;
+}
+
+.footerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    height: 30px;
+    background-color: black;
+    color: #eeeeee;
+}
+
+.footerNav span {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 860px) {
+    .contentWrapper {
+        justify-content: space-evenly;
+    }
+
+    .row {
+        justify-content: space-evenly;
+    }
+
+    .palmstrax .imgContainer {
+        width: 300px;
+        height: 300px;
+    }
+
+    .palmstrax {
+        justify-content: center;
+        gap: 20px;
+    }
+}
